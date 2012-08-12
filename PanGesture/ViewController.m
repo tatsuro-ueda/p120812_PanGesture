@@ -31,4 +31,7 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)handlePan:(id)sender {
+    NSLog(@"PAN!");
+}
 @end
